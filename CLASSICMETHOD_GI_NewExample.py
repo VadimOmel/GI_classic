@@ -15,10 +15,9 @@ timeStart = timer()
 from gradual_increase_lib import *
 
 connection_params = {
-# For Compute Server you need at least this
-   "ComputeServer":  "https://gurobi.dev.optimisation.alpiq.services:443",
-   "Username": "OMELCHENKO_V",
-   "ServerPassword": "s5XrG3pYqgptaq89jZ"
+   "ComputeServer":  "YOUR_SERVER",
+   "Username": "YOUR_USERNAME",
+   "ServerPassword": "YOUR_PASSWORD"
     }
 env = gp.Env(params=connection_params)
 #env = []
